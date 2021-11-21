@@ -1,0 +1,46 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    height: 500px;
+    background-color: #ffffff;
+}
+.centerBox{
+    height: 400px;
+    width: 400px;
+    border: 2px solid #aaa;
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 204px;
+    padding-top: 100px;
+    background-color: #007065;
+}
+.triangleWrapper{
+    margin-top: 100px;
+}
+.rect1, .rect2, .rect3{
+    width: 0;
+    height: 0;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+   
+}
+.rect1{
+    border-bottom: 100px solid #f5c181;
+    position: absolute;
+    margin-top: -28px;
+}
+.rect2{
+    border-bottom: 100px solid #00a79d;
+}
+.rect3{
+    border-bottom: 100px solid #ffeecf;
+    position: absolute;
+    margin-top: -165px;
+}
+h2{
+position: absolute;
+color: #fff;
+margin-left: 30px;
+}
